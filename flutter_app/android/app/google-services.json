@@ -1,0 +1,72 @@
+{
+  "project_info": {
+    "project_number": "374980165475",
+    "firebase_url": "https://test-da167.firebaseio.com",
+    "project_id": "test-da167"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374980165475:android:d56019597ac27f80",
+        "android_client_info": {
+          "package_name": "com.binnex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "374980165475-r23gglp1b194dvij2gomdpkvi86kblnb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8eeLxSdkw4i5QSsziNcOuupb-BM_BD_4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374980165475:android:7bd71543f89d056a",
+        "android_client_info": {
+          "package_name": "com.example.flutterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "374980165475-r23gglp1b194dvij2gomdpkvi86kblnb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8eeLxSdkw4i5QSsziNcOuupb-BM_BD_4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
