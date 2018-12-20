@@ -16,3 +16,7 @@
 
 ## 4. Networking:
 - example: https://github.com/PoojaB26/ParsingJSON-Flutter
+
+## 5. Data local:
+- Shared Preferences: https://medium.com/flutter-community/shared-preferences-how-to-save-flutter-application-settings-and-user-preferences-for-later-554d08671ae9
+- SQLite: https://grokonez.com/flutter/flutter-sqlite-example-crud-sqflite-example
