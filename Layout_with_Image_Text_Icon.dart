@@ -1,9 +1,8 @@
 // folder images: tutorialChannel.png
 // pubspec.yaml: 
-```sh
- assets:
-     - images/tutorialChannel.png
-     ````
+// assets:
+//     - images/tutorialChannel.png
+
 
 
 
