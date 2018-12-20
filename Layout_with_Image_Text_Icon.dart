@@ -1,3 +1,5 @@
+//Layout#1. Layout trong Flutter với Image, Column, Row, Text và Icon
+
 // folder images: tutorialChannel.png
 // pubspec.yaml: 
 // assets:
