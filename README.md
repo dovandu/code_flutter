@@ -6,3 +6,7 @@
 - lib ui: https://github.com/Solido/awesome-flutter
 
 ## 
+
+## 2. Dart language:
+- basic: https://kipalog.com/tags/dart?count=4    https://kipalog.com/posts/Nhung-diem-danh-dau-khi-tim-hieu-ve-Dart
+- 
