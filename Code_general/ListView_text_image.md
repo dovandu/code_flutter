@@ -41,6 +41,7 @@ class MyApp extends StatelessWidget {
 import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'data.dart';
+import 'flower.dart';
 class ListViewExample extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
@@ -49,15 +50,23 @@ class ListViewExample extends StatefulWidget {
   }
 }
 class ListViewExampleState extends State<ListViewExample> {
-  List<Container> _buildListItemsFromFlowers(){
+  var selectedFlower = new Flower();
+
+  List<GestureDetector> _buildListItemsFromFlowers(){
     int index = 0;
     return flowers.map((flower){
+      var boxDecoration=index % 2 == 0?
+      new BoxDecoration(color: const Color(0xFFb0e0e6)):
+      new BoxDecoration(
+          color: const Color(0xFF7ec0ee)
+      );
+      if (selectedFlower == flower) {
+        boxDecoration = new BoxDecoration(
+            color: Colors.deepOrangeAccent
+        );
+      }
       var container = Container(
-        decoration: index % 2 == 0?
-        new BoxDecoration(color: const Color(0xFFb0e0e6)):
-        new BoxDecoration(
-            color: const Color(0xFF7ec0ee)
-        ),
+        decoration: boxDecoration,
         child: new Row(
           children: <Widget>[
             new Container(
@@ -101,7 +110,16 @@ class ListViewExampleState extends State<ListViewExample> {
         ),
       );
       index = index + 1;
-      return container;
+      final gestureDetector = GestureDetector(
+        child: container,
+        onTap:(){
+          print("You tapped to ${flower.flowerName}");
+          setState(() {
+            selectedFlower = flower;
+          });
+        }
+      );
+      return gestureDetector;
     }).toList();
   }
   @override
