@@ -22,6 +22,10 @@ class RandomEnglishWordsState extends State<RandomEnglishWords>{
     return new Scaffold(
       appBar: new AppBar(
         title: new Text("List of English words"),
+        actions: <Widget>[
+          new IconButton(icon: new Icon(Icons.list),
+              onPressed: _pushToSavedWordsScreen)
+        ],
       ),
       body: new ListView.builder(itemBuilder: (context, index) {
         //This is an anonymous function
@@ -33,6 +37,29 @@ class RandomEnglishWordsState extends State<RandomEnglishWords>{
         return _buildRow(_words[index], index);//Where is _buildRow ?
       }),
     );
+  }
+  _pushToSavedWordsScreen() {
+//    print("You pressed to the right Icon");
+    //To navigate, you must have a "route"
+    final pageRoute = new MaterialPageRoute(builder: (context) {
+      //map function = Convert this list to another list(maybe different object's type)
+      //_checkedWords(list of WordPair) => map => 
+      // converted to a lazy list(Iterable) of ListTile
+      final listTiles = _checkedWords.map( (wordPair) {
+        return new ListTile(
+          title: new Text(wordPair.asUpperCase,
+            style: new TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
+        );
+      });
+      //Now return a widget, we choose "Scaffold"
+      return new Scaffold(
+        appBar: new AppBar(
+          title: new Text("Checked words"),
+        ),
+        body: new ListView(children: listTiles.toList(),),//Lazy list(Iterable) => List
+      );
+    });
+    Navigator.of(context).push(pageRoute);
   }
   Widget _buildRow(WordPair wordPair, int index) {
     //This widget is for each row
