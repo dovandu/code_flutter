@@ -1,0 +1,111 @@
+// Tạo và làm việc với nhiều Tab trong Flutter
+// main.dart
+
+import 'package:flutter/material.dart';
+import 'tab1.dart';
+import 'tab2.dart';
+import 'tab3.dart';
+import 'tab4.dart';
+
+//Define "root widget"
+void main() => runApp(new MyApp());//one-line function
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    //build function returns a "Widget"
+    final tabController = new DefaultTabController(
+        length: 4,
+        child: new Scaffold(
+          appBar: new AppBar(
+            title: new Text("These are tabs"),
+            bottom: new TabBar(
+                indicatorColor: Colors.red,
+                indicatorWeight: 2.0,
+                tabs: [
+                  new Tab(icon: new Icon(Icons.home),text: "Home"),
+                  new Tab(icon: new Icon(Icons.group),text: "Group"),
+                  new Tab(icon: new Icon(Icons.chat_bubble), text: "Chat",),
+                  new Tab(icon: new Icon(Icons.cloud_queue), text: "Cloud",)
+            ]),
+          ),
+          body: new TabBarView(
+              children: [
+                new Tab1(),
+                new Tab2(),
+                new Tab3(),
+                new Tab4()
+              ]
+          ),
+        ),
+    );
+    return new MaterialApp(
+      title: "Tabs example",
+      home: tabController
+    );
+  }
+}
+
+// Tab1
+import 'package:flutter/material.dart';
+class Tab1 extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return new Center(
+      child: new Text(
+        "This is Home Tab",
+        style: new TextStyle(fontSize: 25.0),
+      ),
+    );
+  }
+}
+
+// Tab 2
+
+import 'package:flutter/material.dart';
+class Tab2 extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return new Center(
+      child: new Text(
+        "This is Group Tab",
+        style: new TextStyle(fontSize: 25.0),
+      ),
+    );
+  }
+}
+
+// Tab 3
+
+import 'package:flutter/material.dart';
+class Tab2 extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return new Center(
+      child: new Text(
+        "This is Group Tab",
+        style: new TextStyle(fontSize: 25.0),
+      ),
+    );
+  }
+}
+
+// Tab 4
+
+import 'package:flutter/material.dart';
+class Tab2 extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return new Center(
+      child: new Text(
+        "This is Group Tab",
+        style: new TextStyle(fontSize: 25.0),
+      ),
+    );
+  }
+}
+
