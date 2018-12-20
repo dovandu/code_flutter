@@ -9,4 +9,6 @@
 
 ## 2. Dart language:
 - basic: https://kipalog.com/tags/dart?count=4    https://kipalog.com/posts/Nhung-diem-danh-dau-khi-tim-hieu-ve-Dart
-- 
+
+## 3. Flutter_redux
+- baseic: https://viblo.asia/p/flutter-how-to-use-redux-1VgZvpgO5Aw
