@@ -19,7 +19,9 @@
 
 ## 5. Data local:
 - Shared Preferences: https://medium.com/flutter-community/shared-preferences-how-to-save-flutter-application-settings-and-user-preferences-for-later-554d08671ae9
-- SQLite: https://grokonez.com/flutter/flutter-sqlite-example-crud-sqflite-example
+### 1. SQLite: 
+- lib :https://github.com/tekartik/sqflite
+- example: https://grokonez.com/flutter/flutter-sqlite-example-crud-sqflite-example
 
 ## 6. Native module code: 
 - example: https://github.com/Nash0x7E2/Flutter-method-channel-tutorial
