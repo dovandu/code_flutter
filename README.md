@@ -11,17 +11,22 @@
 - basic: https://kipalog.com/tags/dart?count=4    https://kipalog.com/posts/Nhung-diem-danh-dau-khi-tim-hieu-ve-Dart
 
 ## 3. Flutter_redux
-- baseic: https://viblo.asia/p/flutter-how-to-use-redux-1VgZvpgO5Aw
+- base: https://viblo.asia/p/flutter-how-to-use-redux-1VgZvpgO5Aw
 - demo: https://github.com/zrg-team/flutter_redux
 
 ## 4. Networking:
 - example: https://github.com/PoojaB26/ParsingJSON-Flutter
 
 ## 5. Data local:
-- Shared Preferences: https://medium.com/flutter-community/shared-preferences-how-to-save-flutter-application-settings-and-user-preferences-for-later-554d08671ae9
-### 1. SQLite: 
+### 1. Shared Preferences: 
+- example: https://medium.com/flutter-community/shared-preferences-how-to-save-flutter-application-settings-and-user-preferences-for-later-554d08671ae9
+### 2. SQLite: 
 - lib :https://github.com/tekartik/sqflite
 - example: https://grokonez.com/flutter/flutter-sqlite-example-crud-sqflite-example
 
 ## 6. Native module code: 
 - example: https://github.com/Nash0x7E2/Flutter-method-channel-tutorial
+
+## 7. Views:
+### 1. ListView: 
+- http://eitguide.net/flutter-bai-9-button-va-listview/
