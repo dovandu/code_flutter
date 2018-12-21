@@ -30,3 +30,4 @@
 ## 7. Views:
 ### 1. ListView: 
 - http://eitguide.net/flutter-bai-9-button-va-listview/
+- https://medium.com/flutter-community/flutter-listview-and-scrollphysics-a-detailed-look-7f0912df2754
