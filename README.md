@@ -35,3 +35,6 @@
 ### 1. ListView: 
 - http://eitguide.net/flutter-bai-9-button-va-listview/
 - https://medium.com/flutter-community/flutter-listview-and-scrollphysics-a-detailed-look-7f0912df2754
+
+## 8. Flutter & Firebase Authentication demo
+- https://github.com/bizz84/coding-with-flutter-login-demo
