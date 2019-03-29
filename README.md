@@ -1,5 +1,8 @@
 # code_flutter: gitub: https://github.com/flutter/flutter
 
+## Vòng đời flutter:
+- https://viblo.asia/p/flutter-doi-dieu-can-ghi-nho-RQqKLN6zl7z
+
 ## 1. Example: 
 - Twitter clone :https://github.com/devdennysegura/flutter-twitter-clone
 - open source: https://github.com/nisrulz/flutter-examples
