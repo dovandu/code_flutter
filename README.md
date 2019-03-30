@@ -41,3 +41,6 @@
 
 ## 8. Flutter & Firebase Authentication demo
 - https://github.com/bizz84/coding-with-flutter-login-demo
+
+## 9. Json
+- https://medium.com/flutter-community/parsing-complex-json-in-flutter-747c46655f51
