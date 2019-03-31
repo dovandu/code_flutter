@@ -44,3 +44,6 @@
 
 ## 9. Json
 - https://medium.com/flutter-community/parsing-complex-json-in-flutter-747c46655f51
+
+## 10. AsyncMemoizer: it runs the function only once, and when called again, returns the cached future.
+- https://medium.com/saugo360/flutter-my-futurebuilder-keeps-firing-6e774830bc2
