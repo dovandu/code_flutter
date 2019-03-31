@@ -47,3 +47,7 @@
 
 ## 10. AsyncMemoizer: it runs the function only once, and when called again, returns the cached future.
 - https://medium.com/saugo360/flutter-my-futurebuilder-keeps-firing-6e774830bc2
+
+## 11. Tablayout
+- Flutter Switching to Tab Reloads Widgets and runs FutureBuilder: with AutomaticKeepAliveClientMixin
+https://stackoverflow.com/a/51225879/10819917
