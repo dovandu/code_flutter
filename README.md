@@ -56,3 +56,6 @@
 ## 11. Tablayout
 - Flutter Switching to Tab Reloads Widgets and runs FutureBuilder: with AutomaticKeepAliveClientMixin
 https://stackoverflow.com/a/51225879/10819917
+
+## 12. Create flugin
+- https://proandroiddev.com/build-your-own-plugin-for-flutter-cfee1a08ea3a
