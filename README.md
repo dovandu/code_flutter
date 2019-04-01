@@ -41,6 +41,8 @@
 - https://medium.com/flutter-community/flutter-listview-and-scrollphysics-a-detailed-look-7f0912df2754
 ### b. Loadmore
 - https://medium.com/@KarthikPonnam/flutter-loadmore-in-listview-23820612907d
+### c. Swipe To Refresh to Flutter app
+- https://medium.com/flutterpub/adding-swipe-to-refresh-to-flutter-app-b234534f39a7
 
 ## 8. Flutter & Firebase Authentication demo
 - https://github.com/bizz84/coding-with-flutter-login-demo
