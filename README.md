@@ -36,8 +36,11 @@
 
 ## 7. Views:
 ### 1. ListView: 
+### a. Cơ bản
 - http://eitguide.net/flutter-bai-9-button-va-listview/
 - https://medium.com/flutter-community/flutter-listview-and-scrollphysics-a-detailed-look-7f0912df2754
+### b. Loadmore
+- https://medium.com/@KarthikPonnam/flutter-loadmore-in-listview-23820612907d
 
 ## 8. Flutter & Firebase Authentication demo
 - https://github.com/bizz84/coding-with-flutter-login-demo
