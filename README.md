@@ -69,3 +69,6 @@ https://stackoverflow.com/a/51225879/10819917
 
 ## 15. Popup Menu Button 
 - https://flutterrdart.com/flutter-popup-menu-button-example/
+
+## 16: Bottom Tab:
+- https://github.com/flutter/flutter/issues/11895#issuecomment-419297888
