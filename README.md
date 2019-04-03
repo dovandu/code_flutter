@@ -9,7 +9,7 @@
 - example app (youtube): https://github.com/iampawan/FlutterExampleApps
 - lib ui: https://github.com/Solido/awesome-flutter
 
-## 
+## https://github.com/flutter/plugins
 
 ## 2. Dart language:
 - basic: https://kipalog.com/tags/dart?count=4    https://kipalog.com/posts/Nhung-diem-danh-dau-khi-tim-hieu-ve-Dart
@@ -72,3 +72,8 @@ https://stackoverflow.com/a/51225879/10819917
 
 ## 16: Bottom Tab:
 - https://github.com/flutter/flutter/issues/11895#issuecomment-419297888
+
+## 17. Image
+- https://flutter.dev/docs/development/ui/widgets/assets
+
+
