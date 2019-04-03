@@ -46,6 +46,24 @@
 
 ### d. Listview filter search in Flutter
 - https://stackoverflow.com/a/50569613
+### e. Add header:
+- https://stackoverflow.com/a/49992238
+```dart
+ListView.builder(
+    itemCount: data == null ? 1 : data.length + 1,
+    itemBuilder: (BuildContext context, int index) {
+        if (index == 0) {
+            // return the header
+            return new Column(...);
+        }
+        index -= 1;
+
+        // return row
+        var row = data[index];
+        return new InkWell(... with row ...);
+    },
+);
+```
 
 ## 8. Flutter & Firebase Authentication demo
 - https://github.com/bizz84/coding-with-flutter-login-demo
