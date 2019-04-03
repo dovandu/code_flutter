@@ -44,6 +44,9 @@
 ### c. Swipe To Refresh to Flutter app
 - https://medium.com/flutterpub/adding-swipe-to-refresh-to-flutter-app-b234534f39a7
 
+### d. Listview filter search in Flutter
+- https://stackoverflow.com/a/50569613
+
 ## 8. Flutter & Firebase Authentication demo
 - https://github.com/bizz84/coding-with-flutter-login-demo
 
