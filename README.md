@@ -97,4 +97,10 @@ https://stackoverflow.com/a/51225879/10819917
 ## 17. Image
 - https://flutter.dev/docs/development/ui/widgets/assets
 
+## 18. Keyword Android and IOS:
+```sh 
+The keyword for Android theme/style is Material (default design), the keyword for iOS theme/style is Cupertino. Every iOS theme widget has the prefix Cupertino. So that, for you requirement, we can guess the keyword is CupertinoDialog/CupertinoAlertDialog
+```
+- https://stackoverflow.com/a/53461389
+
 
