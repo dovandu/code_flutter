@@ -106,4 +106,7 @@ The keyword for Android theme/style is Material (default design), the keyword fo
 ```
 - https://stackoverflow.com/a/53461389
 
+## 19. Flutter calling child class function from parent class
+- https://stackoverflow.com/a/53706941
+
 
