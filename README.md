@@ -33,6 +33,7 @@
 - example: https://grokonez.com/flutter/flutter-sqlite-example-crud-sqflite-example
 - tutorial: https://medium.com/flutter-community/using-sqlite-in-flutter-187c1a82e8b
 - demo: https://github.com/Rahiche/sqlite_demo
+- open asset file: https://stackoverflow.com/a/51387985
 
 ## 6. Native module code: 
 - example: https://github.com/Nash0x7E2/Flutter-method-channel-tutorial
