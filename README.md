@@ -113,4 +113,7 @@ The keyword for Android theme/style is Material (default design), the keyword fo
 ## 20. Chat demo
 - https://github.com/duytq94/flutter-chat-demo
 
+## 21. Controlling State from outside of a StatefulWidget
+- https://stackoverflow.com/questions/46057353/controlling-state-from-outside-of-a-statefulwidget
+
 
