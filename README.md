@@ -116,4 +116,7 @@ The keyword for Android theme/style is Material (default design), the keyword fo
 ## 21. Controlling State from outside of a StatefulWidget
 - https://stackoverflow.com/questions/46057353/controlling-state-from-outside-of-a-statefulwidget
 
+## 22. Scrolling Animation in Flutter
+- https://medium.com/flutter-community/scrolling-animation-in-flutter-6a6718b8e34f
+
 
