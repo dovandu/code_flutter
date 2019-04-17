@@ -122,4 +122,7 @@ The keyword for Android theme/style is Material (default design), the keyword fo
 ## 23. MVP, bloc, rxdart, dio..
 - https://github.com/KingWu/flutter_starter_kit
 
+## 24. extend class
+- https://code-maven.com/slides/dart-programming/extending-class
+
 
