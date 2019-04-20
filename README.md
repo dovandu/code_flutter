@@ -125,4 +125,10 @@ The keyword for Android theme/style is Material (default design), the keyword fo
 ## 24. extend class
 - https://code-maven.com/slides/dart-programming/extending-class
 
+## 25. Build Flutter
+```sh
+for that you need to run flutter build ios --release before you archive the app.
+This is a known issue.
+```
+
 
