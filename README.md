@@ -7,6 +7,7 @@
 - https://github.com/Lyokone/flutterlocation?fbclid=IwAR1TL-4-1ovvbr-vt1qoXLJgy6AmplCObfH1yotTYpBpON7qQA8iG1p5UU4
 
 ## 1. Example: 
+- instagram clone: https://github.com/mohak1283/Instagram-Clone
 - Twitter clone :https://github.com/devdennysegura/flutter-twitter-clone
 - open source: https://github.com/nisrulz/flutter-examples
 - example app (youtube): https://github.com/iampawan/FlutterExampleApps
