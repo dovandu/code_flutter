@@ -2,6 +2,8 @@
 
 ## Vòng đời flutter:
 - https://viblo.asia/p/flutter-doi-dieu-can-ghi-nho-RQqKLN6zl7z
+## bg tracking ios example:
+- https://github.com/Kent-Mbn/TrackingLocationExample
 
 ## create plugin example:
 - https://github.com/Lyokone/flutterlocation?fbclid=IwAR1TL-4-1ovvbr-vt1qoXLJgy6AmplCObfH1yotTYpBpON7qQA8iG1p5UU4
