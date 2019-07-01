@@ -133,5 +133,6 @@ The keyword for Android theme/style is Material (default design), the keyword fo
 for that you need to run flutter build ios --release before you archive the app.
 This is a known issue.
 ```
-
+## 26: Hide bottom navigation bar on scroll down and vice versa
+- https://stackoverflow.com/questions/54414268/hide-bottom-navigation-bar-on-scroll-down-and-vice-versa
 
