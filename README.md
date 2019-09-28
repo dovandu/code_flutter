@@ -2,6 +2,7 @@
 
 ## fix up store ios flutter 1.9: flutter build ios --release may use a debug Flutter.framework by mistake
 - https://github.com/flutter/flutter/issues/37850#issuecomment-533209100
+- https://stackoverflow.com/a/33699136
 
 ## Vòng đời flutter:
 - https://viblo.asia/p/flutter-doi-dieu-can-ghi-nho-RQqKLN6zl7z
