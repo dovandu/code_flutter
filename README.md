@@ -1,5 +1,8 @@
 # code_flutter: gitub: https://github.com/flutter/flutter
 
+## fix up store ios flutter 1.9: flutter build ios --release may use a debug Flutter.framework by mistake
+- https://github.com/flutter/flutter/issues/37850#issuecomment-533209100
+
 ## Vòng đời flutter:
 - https://viblo.asia/p/flutter-doi-dieu-can-ghi-nho-RQqKLN6zl7z
 ## bg tracking ios example:
