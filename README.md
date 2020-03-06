@@ -140,7 +140,7 @@ This is a known issue.
 ## 26: Hide bottom navigation bar on scroll down and vice versa
 - https://stackoverflow.com/questions/54414268/hide-bottom-navigation-bar-on-scroll-down-and-vice-versa
 
-## errorCode
+## 27: errorCode
 
 ```sh
 * 100 Continue
@@ -192,4 +192,6 @@ This is a known issue.
 * 505 HTTP Version Not Supported
 * 511 Network Authentication Required
 ```
+
+### 28: Validating Receipts With the App Store: https://developer.apple.com/library/archive/releasenotes/General/ValidateAppStoreReceipt/Chapters/ValidateRemotely.html#//apple_ref/doc/uid/TP40010573-CH104-SW1
 
