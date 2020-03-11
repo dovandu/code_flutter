@@ -195,3 +195,6 @@ This is a known issue.
 
 ### 28: Validating Receipts With the App Store: https://developer.apple.com/library/archive/releasenotes/General/ValidateAppStoreReceipt/Chapters/ValidateRemotely.html#//apple_ref/doc/uid/TP40010573-CH104-SW1
 
+### 29: Car play: https://stackoverflow.com/a/42762956
+
+
