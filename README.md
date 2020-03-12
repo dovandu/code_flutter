@@ -193,7 +193,9 @@ This is a known issue.
 * 511 Network Authentication Required
 ```
 
-### 28: Validating Receipts With the App Store: https://developer.apple.com/library/archive/releasenotes/General/ValidateAppStoreReceipt/Chapters/ValidateRemotely.html#//apple_ref/doc/uid/TP40010573-CH104-SW1
+### 28: Inapp purchase
+1. Validating Receipts With the App Store: https://developer.apple.com/library/archive/releasenotes/General/ValidateAppStoreReceipt/Chapters/ValidateRemotely.html#//apple_ref/doc/uid/TP40010573-CH104-SW1
+2. set up apk android: https://stackoverflow.com/a/35132936/10819917
 
 ### 29: Car play: https://stackoverflow.com/a/42762956
 
