@@ -197,6 +197,8 @@ This is a known issue.
 1. Validating Receipts With the App Store: https://developer.apple.com/library/archive/releasenotes/General/ValidateAppStoreReceipt/Chapters/ValidateRemotely.html#//apple_ref/doc/uid/TP40010573-CH104-SW1
 2. set up apk android: https://stackoverflow.com/a/35132936/10819917
 
-### 29: Car play: https://stackoverflow.com/a/42762956
+### 29: 
+1. Car play: https://stackoverflow.com/a/42762956
+2. Android auto: https://stackoverflow.com/a/57844089/10819917
 
 
