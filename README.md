@@ -204,4 +204,7 @@ This is a known issue.
 2.1 https://stackoverflow.com/a/57844089/10819917
 2.2 https://developer.android.com/training/cars/testing
 
+### 30 One Signal:
+- https://documentation.onesignal.com/docs/generate-an-ios-push-certificate
+
 
