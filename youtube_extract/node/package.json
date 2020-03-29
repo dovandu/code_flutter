@@ -1,0 +1,16 @@
+{
+  "name": "upbeat",
+  "version": "0.0.1",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "crawler": "^1.2.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "mysql": "^2.18.1",
+    "puppeteer": "^2.1.1",
+    "request": "^2.88.2",
+    "miniget": "^1.7.0"
+  }
+}
