@@ -2,18 +2,32 @@ import 'dart:convert';
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
+import 'package:flutterapp/ytdl/info_model.dart';
 import 'package:flutterapp/ytdl/sig.dart';
 import 'package:flutterapp/ytdl/util.dart';
 import 'package:http/http.dart' as http;
-
-const VIDEO_URL = 'https://www.youtube.com/watch?v=';
-const EMBED_URL = 'https://www.youtube.com/embed/';
-const VIDEO_EURL = 'https://youtube.googleapis.com/v/';
-const INFO_HOST = 'www.youtube.com';
-const INFO_PATH = '/get_video_info';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class Infor {
-  Future getBasicInfo(String id) async {
+  static final String VIDEO_URL = 'https://www.youtube.com/watch?v=';
+  static final String EMBED_URL = 'https://www.youtube.com/embed/';
+  static final String VIDEO_EURL = 'https://youtube.googleapis.com/v/';
+  static final String INFO_HOST = 'www.youtube.com';
+  static final String INFO_PATH = '/get_video_info';
+  static final String SERVER_INFO = 'server/info';
+  static final int EXPIRE = 4;
+
+  static Infor instance;
+  static SharedPreferences prefs;
+
+  static Infor getInstance() {
+    if (instance == null) {
+      instance = Infor();
+    }
+    return instance;
+  }
+
+  Future _getBasicInfo(String id) async {
     const params = 'hl=en';
     var url = VIDEO_URL +
         id +
@@ -50,7 +64,7 @@ class Infor {
     if (jsonStr != null) {
       config = jsonStr.substring(0, jsonStr.lastIndexOf(';ytplayer.load'));
       // print(config);
-      return await gotConfig(id, null, null, config, false);
+      return await _gotConfig(id, null, null, config, false);
     } else {
       // If the video page doesn't work, maybe because it has mature content.
       // and requires an account logged in to view, try the embed page.
@@ -60,7 +74,7 @@ class Infor {
       var body2 = res2.body;
       config = Util.between(
           body2, 't.setConfig({\'PLAYER_CONFIG\': ', "\}(,'|\}\);)");
-      return await gotConfig(id, null, null, config, true);
+      return await _gotConfig(id, null, null, config, true);
     }
   }
 
@@ -72,7 +86,7 @@ class Infor {
  * @param {boolean} fromEmbed
  * @return {Promise<Object>}
  */
-  Future gotConfig(id, options, additional, configStr, fromEmbed) async {
+  Future _gotConfig(id, options, additional, configStr, fromEmbed) async {
     if (configStr == null) {
       throw Exception('Could not find player config');
     }
@@ -148,12 +162,33 @@ class Infor {
  * @param {Object} options
  * @return {Promise<Object>}
  */
-  Future getFullInfo(id) async {
-    var info = await getBasicInfo(id);
+  Future<InfoModel> getFullInfo(id) async {
+    prefs ??= await SharedPreferences.getInstance();
+    String inforStr = prefs.getString(id);
+    print('inforStr ==> $inforStr');
+    if (inforStr != null) {
+      var obJson = json.decode(inforStr);
+      InfoModel ob = InfoModel.fromJson(obJson);
+      DateTime ex = ob.expire;
+      if (ex.difference(DateTime.now()).inHours < EXPIRE) {
+        return ob;
+      }
+    }
+
+    var info = await _getBasicInfo(id);
 
     var _client = http.Client();
-    var res = await _client.post('http://localhost:3000/getinfo', body: info);
+    var res = await _client
+        .post(SERVER_INFO, body: {'info_extrac': json.encode(info)});
     var body = res.body;
+    Map resJson = json.decode(body);
+    if (!resJson['success']) {
+      throw Exception('Video not found');
+    }
+    String url = resJson['data']['url'];
+    InfoModel mode = InfoModel(id: id, url: url, expire: DateTime.now());
+    prefs.setString(id, json.encode(mode.toJson()));
+    return mode;
 
 //    var playerResponse = info['player_response'];
 //    bool hasManifest = playerResponse != null &&
@@ -192,6 +227,5 @@ class Infor {
     // info.formats = info.formats.map(Util.addFormatMeta);
     // info.formats.sort(Util.sortFormats);
     // info.full = true;
-    return info;
   }
 }
