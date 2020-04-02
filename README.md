@@ -213,4 +213,7 @@ This is a known issue.
 ### 30 One Signal:
 - https://documentation.onesignal.com/docs/generate-an-ios-push-certificate
 
+### 31 CryptoJS AES Encryption/Decryption For Flutter/Dart
+- https://medium.com/@chingsuehok/cryptojs-aes-encryption-decryption-for-flutter-dart-7ca123bd7464
+
 
