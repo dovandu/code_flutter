@@ -207,6 +207,7 @@ This is a known issue.
 - How to Implementing MPNowPlayingInfoCenter using AvAudioPlayer
 - https://stackoverflow.com/a/40265727
 - https://developer.apple.com/carplay/documentation/CarPlay-Audio-App-Programming-Guide.pdf
+- Demo Native: https://github.com/analogcode/Swift-Radio-Pro
 2. Android auto: 
 2.0. enable Android auto: https://developer.android.com/training/cars/media/automotive-os#set-up-project
 2.1 https://stackoverflow.com/a/57844089/10819917
