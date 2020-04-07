@@ -6,16 +6,16 @@ assets :
          - jsons: config data
 lib: 
      - base:
-             + presenter: Tất cả các m hình đ phải có class presenter và đc kế ừa từ base
+             + presenter: Tất cả các màn hình đều phải có class presenter và đc kế ừa từ base
              + contract: abstract (void updateState();)
-             + const
-             + utils
-             + data_store
-             + api_client: Tất cả các m hình đ phải có class presenter và đc kế ừa từ base
+             + const: config toàn bộ app
+             + utils: methob đc xử dụng nhiều
+             + data_store: singleton (dùng cho project nhỏ và có tính cục bộ)
+             + api_client: Tất cả các api_client dùng để giao tiếp hay xử lý data và đc kế thừa từ base
      - model
      - core: 
-             + api
-             + api_config
+             + api: các methob request (get, post, put, del)
+             + api_config: config các api host
      - helper
      - pages: cái view màn chính ( chi tiết screens)
      - screens: MVP
