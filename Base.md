@@ -6,12 +6,12 @@ assets :
          - jsons: config data
 lib: 
      - base:
-             + presenter
+             + presenter: Tất cả các m hình đ phải có class presenter và đc kế ừa từ base
              + contract: abstract (void updateState();)
              + const
              + utils
              + data_store
-             + api_client
+             + api_client: Tất cả các m hình đ phải có class presenter và đc kế ừa từ base
      - model
      - core: 
              + api
