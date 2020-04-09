@@ -200,20 +200,6 @@ This is a known issue.
 1. Validating Receipts With the App Store: https://developer.apple.com/library/archive/releasenotes/General/ValidateAppStoreReceipt/Chapters/ValidateRemotely.html#//apple_ref/doc/uid/TP40010573-CH104-SW1
 2. set up apk android: https://stackoverflow.com/a/35132936/10819917
 
-### 29: 
-1. Car play: https://stackoverflow.com/a/42762956
-- https://nowplayingapps.com/how-to-give-more-control-to-your-users-using-mpnowplayinginfocenter/
-1.1: https://intercom.help/nobex-partners/en/articles/2287210-how-to-request-apple-carplay-entitlement-vip-plan
-- How to Implementing MPNowPlayingInfoCenter using AvAudioPlayer
-- https://stackoverflow.com/a/40265727
-- https://developer.apple.com/carplay/documentation/CarPlay-Audio-App-Programming-Guide.pdf
-- Demo Native: https://github.com/analogcode/Swift-Radio-Pro
-2. Android auto: 
-2.0. enable Android auto: https://developer.android.com/training/cars/media/automotive-os#set-up-project
-2.1 https://stackoverflow.com/a/57844089/10819917
-2.2 https://developer.android.com/training/cars/testing
-2.3 Android Automotive Emulator “no system images installed for this target”:
- https://stackoverflow.com/a/58159715/10819917
 
 ### 30 One Signal:
 - https://documentation.onesignal.com/docs/generate-an-ios-push-certificate
