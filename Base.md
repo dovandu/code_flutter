@@ -33,4 +33,15 @@ lib:
      - views: các view chung cho nếu trùng nhau
      - main.dart
 ```
+
+Các bước vẽ UI:
+```sh
+- Bước 1: Dựng ui đơn giản nhất: 
+         + Dựng khung và các item
+         + icon, image đc thay thế tạm bằng container để định hình
+- Bước 2: Export icon và căn chỉnh
+         + yêu cầu icon bé nhất 64px
+- Bước 3: Bố trí các item giống nhau trong các màn hình để vào views chung
+         
+```
       
