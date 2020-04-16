@@ -12,10 +12,8 @@
 ```
   
 ### B Android
-```sh
 - 1 screen short: đẹp là đc
 - 2 icon: 512x512
 - 3 image: 1024x500
 - 4 onesignale icon http://romannurik.github.io/AndroidAssetStudio/icons-notification.html
-```
               
