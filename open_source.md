@@ -6,4 +6,7 @@
 2.https://pub.dev/packages/flutter_plugin_playlist
 3.https://github.com/iampawan/Flutter-Music-Player
 
+### 2. Chat app:
+ - UI: https://github.com/camphan12993/chat-app-ui
+
 
