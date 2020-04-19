@@ -2,9 +2,10 @@
 - UI: https://github.com/quanngovan98/Music_Neumorphism_AppConcept
 - Service: 
 
-1.https://pub.dev/packages/flutter_midi_command
-2.https://pub.dev/packages/flutter_plugin_playlist
-3.https://github.com/iampawan/Flutter-Music-Player
+1. https://pub.dev/packages/flutter_midi_command
+2. https://pub.dev/packages/flutter_plugin_playlist
+3. https://github.com/iampawan/Flutter-Music-Player
+4. https://github.com/muslimtv/flutter_playout
 
 ### 2. Chat app:
  - UI: https://github.com/camphan12993/chat-app-ui
