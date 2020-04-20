@@ -1,4 +1,5 @@
 # code_flutter: gitub: https://github.com/flutter/flutter
+- tai xcode: https://stackoverflow.com/questions/10335747/how-to-download-xcode-dmg-or-xip-file
 
 ## I. Dart Online:
 - https://dartpad.dartlang.org/
