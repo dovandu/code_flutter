@@ -27,7 +27,7 @@
   + sh1: lấy trên store ch play
   + hash key: run git bash trên windown: 
   ```sh echo <sh1> | xxd -r -p | openssl base64 ```
-- 2 Firebase auth: config sh1
+- 2 Android Firebase auth: config sh1
    
 
               
