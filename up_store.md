@@ -1,3 +1,5 @@
+- Ảnh dùng theo 3 size: low: 100px, medium: 300px, high: 500px
+
 ### A. IOS:
 ```sh
 - 1 screen short: 
