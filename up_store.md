@@ -21,4 +21,13 @@
 - 1 kiểm tra config ads, debug, link appstore
 - 2 kiểm tra firebase config
 - 3 kiểm tra term, privacy
+
+### D Up store success:
+- 1 Android Login fb: config sh1, hash key:
+  + sh1: lấy trên store ch play
+  + hash key: run git bash trên windown: 
+  ```sh echo <sh1> | xxd -r -p | openssl base64 ```
+- 2 Firebase auth: config sh1
+   
+
               
