@@ -30,6 +30,7 @@ lib:
                        1. Hàm ko đc viết trong view bao gồm cả builder item
                        2. item phải viết class riêng
                        3. Hạn chế tối đa việc tách class ko cần thiết
+                       4. Tóm lại k có hàm hoặc biến bên view
      - views: các view chung cho nếu trùng nhau
      - main.dart
 ```
