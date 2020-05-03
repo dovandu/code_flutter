@@ -10,5 +10,8 @@
 ### 2. Chat app:
  - UI: https://github.com/camphan12993/chat-app-ui
  - https://github.com/daturit/aplanetTV
+ 
+### 3.Every Day:
+- https://github.com/vancuong0429/everyday
 
 
