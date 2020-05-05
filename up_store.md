@@ -24,6 +24,7 @@
 - 2 kiểm tra firebase config
 - 3 kiểm tra term, privacy
 - 4 Thay server dev vs product
+- 5 Kiểm tra inapp config appstore
 
 ### D Up store success:
 - 1 Android Login fb: config sh1, hash key:
