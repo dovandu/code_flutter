@@ -32,6 +32,9 @@
   + hash key: run git bash trên windown: 
   ```sh echo <sh1> | xxd -r -p | openssl base64 ```
 - 2 Android Firebase auth: config sh1
+
+### E May ảo 
+- this copy of the install macos mojave application is damaged and can‘t be used to install macos: date 010101002018
    
 
               
