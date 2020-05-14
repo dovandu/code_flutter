@@ -1,6 +1,8 @@
 # code_flutter: gitub: https://github.com/flutter/flutter
 - tai xcode: https://stackoverflow.com/questions/10335747/how-to-download-xcode-dmg-or-xip-file
 
+- https://stackoverflow.com/questions/51948252/hide-appbar-on-scroll-flutter
+
 ## I. Dart Online:
 - https://dartpad.dartlang.org/
 
