@@ -21,4 +21,8 @@
 ### 5. Call webrtc
 - https://github.com/nhancv/nc-flutter-webrtc-ex
 
+### 6. Photo
+- https://pub.dev/packages/image_editor_pro
+- https://pub.dev/packages/photofilters
+
 
