@@ -9,3 +9,5 @@ https://www.instagram.com/p/BI0BQkfh0ed/media/?size=m
 // Large
 https://www.instagram.com/p/BI0BQkfh0ed/media/?size=l
 ```
+get tags
+https://www.datamuse.com/api/
