@@ -3,6 +3,9 @@
 
 - https://stackoverflow.com/questions/51948252/hide-appbar-on-scroll-flutter
 
+### setup flutter 
+- https://web.archive.org/web/20180210044548/http://spring.io/guides/gs/android/
+
 ## I. Dart Online:
 - https://dartpad.dartlang.org/
 
