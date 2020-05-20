@@ -213,4 +213,7 @@ This is a known issue.
 ### 31 CryptoJS AES Encryption/Decryption For Flutter/Dart
 - https://medium.com/@chingsuehok/cryptojs-aes-encryption-decryption-for-flutter-dart-7ca123bd7464
 
+### 32 Native view:
+1. UIKITView https://medium.com/@phoomparin/how-to-use-native-uis-in-flutter-with-swift-platform-view-8b4dc7f833d8
+
 
