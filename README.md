@@ -1,11 +1,24 @@
 # code_flutter: gitub: https://github.com/flutter/flutter
+- tai xcode: https://stackoverflow.com/questions/10335747/how-to-download-xcode-dmg-or-xip-file
 
-## Vòng đời flutter:
+- https://stackoverflow.com/questions/51948252/hide-appbar-on-scroll-flutter
+
+### setup flutter 
+- https://web.archive.org/web/20180210044548/http://spring.io/guides/gs/android/
+
+## I. Dart Online:
+- https://dartpad.dartlang.org/
+
+## II. fix up store ios flutter 1.9: flutter build ios --release may use a debug Flutter.framework by mistake
+- https://github.com/flutter/flutter/issues/37850#issuecomment-533209100
+- https://stackoverflow.com/a/33699136
+
+## III. Vòng đời flutter:
 - https://viblo.asia/p/flutter-doi-dieu-can-ghi-nho-RQqKLN6zl7z
-## bg tracking ios example:
+## IV. bg tracking ios example:
 - https://github.com/Kent-Mbn/TrackingLocationExample
 
-## create plugin example:
+## V. create plugin example:
 - https://github.com/Lyokone/flutterlocation?fbclid=IwAR1TL-4-1ovvbr-vt1qoXLJgy6AmplCObfH1yotTYpBpON7qQA8iG1p5UU4
 
 ## 1. Example: 
@@ -135,4 +148,72 @@ This is a known issue.
 ```
 ## 26: Hide bottom navigation bar on scroll down and vice versa
 - https://stackoverflow.com/questions/54414268/hide-bottom-navigation-bar-on-scroll-down-and-vice-versa
+
+## 27: errorCode
+
+```sh
+* 100 Continue
+* 101 Switching Protocols
+* 200 OK
+* 201 Created
+* 202 Accepted
+* 203 Non-Authoritative Information
+* 204 No Content
+* 205 Reset Content
+* 206 Partial Content
+* 300 Multiple Choices
+* 301 Moved Permanently
+* 302 Found
+* 303 See Other
+* 304 Not Modified
+* 307 Temporary Redirect
+* 308 Permanent Redirect
+* 400 Bad Request
+* 401 Unauthorized
+* 403 Forbidden
+* 404 Not Found
+* 405 Method Not Allowed
+* 406 Not Acceptable
+* 407 Proxy Authentication Required
+* 408 Request Timeout
+* 409 Conflict
+* 410 Gone
+* 411 Length Required
+* 412 Precondition Failed
+* 413 Payload Too Large
+* 414 URI Too Long
+* 415 Unsupported Media Type
+* 416 Range Not Satisfiable
+* 417 Expectation Failed
+* 418 I'm a teapot
+* 422 Unprocessable Entity
+* 425 Too Early
+* 426 Upgrade Required
+* 428 Precondition Required
+* 429 Too Many Requests
+* 431 Request Header Fields Too Large
+* 451 Unavailable For Legal Reasons
+* 500 Internal Server Error
+* 501 Not Implemented
+* 502 Bad Gateway
+* 503 Service Unavailable
+* 504 Gateway Timeout
+* 505 HTTP Version Not Supported
+* 511 Network Authentication Required
+```
+
+### 28: Inapp purchase
+1. Validating Receipts With the App Store: https://developer.apple.com/library/archive/releasenotes/General/ValidateAppStoreReceipt/Chapters/ValidateRemotely.html#//apple_ref/doc/uid/TP40010573-CH104-SW1
+2. set up apk android: https://stackoverflow.com/a/35132936/10819917
+
+
+### 30 One Signal:
+- https://documentation.onesignal.com/docs/generate-an-ios-push-certificate
+
+### 31 CryptoJS AES Encryption/Decryption For Flutter/Dart
+- https://medium.com/@chingsuehok/cryptojs-aes-encryption-decryption-for-flutter-dart-7ca123bd7464
+
+### 32 Native view:
+1. UIKITView https://medium.com/@phoomparin/how-to-use-native-uis-in-flutter-with-swift-platform-view-8b4dc7f833d8
+
 
