@@ -216,4 +216,7 @@ This is a known issue.
 ### 32 Native view:
 1. UIKITView https://medium.com/@phoomparin/how-to-use-native-uis-in-flutter-with-swift-platform-view-8b4dc7f833d8
 
+### 33 Android: install .apk programmatically [duplicate]
+- https://stackoverflow.com/a/4969421
+
 
